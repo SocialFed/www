@@ -73,7 +73,7 @@ export default function Hero() {
                             </svg>
                         </div>
                         <div className="relative px-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 h-full w-full">
-                            <Image src="/images/hero.jpg" layout="responsive" width={2752} height={1984} priority={true} />
+                            <Image alt='SocialFed demonstration hero image' src="hero.jpg" layout="responsive" width={2752} height={1984} priority={true} />
                         </div>
                     </div>
                 </div>
