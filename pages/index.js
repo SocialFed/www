@@ -15,6 +15,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <h1 className='text-4xl font-bold flex justify-center mt-12'>SocialFed</h1>
       </main>
     </React.Fragment >
   )
