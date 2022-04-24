@@ -1,4 +1,5 @@
 import { ChevronRightIcon, StarIcon } from '@heroicons/react/solid'
+import Image from 'next/image'
 
 export default function Hero() {
     return (
@@ -71,8 +72,8 @@ export default function Hero() {
                                 <rect width={404} height={392} fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)" />
                             </svg>
                         </div>
-                        <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-
+                        <div className="relative px-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 h-full w-full">
+                            <Image src="/images/hero.jpg" layout="responsive" width={2752} height={1984} />
                         </div>
                     </div>
                 </div>
