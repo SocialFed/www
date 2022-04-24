@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import CallToAction from '../components/CallToAction'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <CallToAction />
       </main>
     </React.Fragment >
   )
